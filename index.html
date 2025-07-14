@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>glitch</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+      font-family: 'Inter', sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      direction: rtl;
+    }
+
+    h1 {
+      font-size: 5rem;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    .tagline {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #00ffff;
+    }
+
+    .phone {
+      margin-top: 30px;
+      font-size: 1.4rem;
+      color: #ccc;
+    }
+
+    .phone a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .phone a:hover {
+      text-decoration: underline;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .buttons a {
+      background-color: #222;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #444;
+    }
+
+    @media (min-width: 600px) {
+      .buttons {
+        flex-direction: row;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>جلتش | Glitch</h1>
+  <div class="tagline">جلتش</div>
+
+  <div class="buttons">
+    <a href="https://example.com/download">Download</a>
+    <a href="https://github.com/yourrepo">GitHub</a>
+    <a href="https://example.com/tutorial">Tutorial</a>
+  </div>
+
+  <div class="phone">
+    📞 <a href="tel:01019045367">01019045367</a>
+  </div>
+</body>
+</html>
